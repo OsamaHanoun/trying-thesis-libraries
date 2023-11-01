@@ -2,7 +2,9 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 import * as OBC from "openbim-components";
 
-export default function IFC() {
+//https://platform.thatopen.com/documentation
+
+export default function FirstSteps() {
   const refContainer = useRef(null);
   let components = null;
   useEffect(() => {

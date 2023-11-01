@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import IFC from "./components/IFC/IFC";
+import IFC from "./components/IFC/FragmentIfcLoader";
 import "./App.scss";
 
 function App() {

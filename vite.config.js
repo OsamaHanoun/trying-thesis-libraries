@@ -8,4 +8,5 @@ export default defineConfig({
     hmr: false,
   },
   assetsInclude: ['"**/*.bpmn"'],
+  base: "/trying-thesis-libraries/",
 });

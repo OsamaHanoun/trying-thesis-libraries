@@ -7,4 +7,5 @@ export default defineConfig({
   server: {
     hmr: false,
   },
+  assetsInclude: ['"**/*.bpmn"'],
 });

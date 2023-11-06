@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import * as OBC from "openbim-components";
-
+import "./IFC.scss";
 // https://platform.thatopen.com/documentation
 
 export default function LoadingIFCFiles() {
@@ -134,10 +134,13 @@ export default function LoadingIFCFiles() {
         scene.add(model);
       }
 
-      // loadIfcAsFragments();
+      console.log(
+        refContainer.current.innerWidth,
+        refContainer.current.innerHeight
+      );
     }
   }, []);
   return (
-    <div ref={refContainer} style={{ width: "100vw", height: "100vh" }}></div>
+    <div ref={refContainer} style={{ height: "100%", flexGrow: "1fr" }}></div>
   );
 }
